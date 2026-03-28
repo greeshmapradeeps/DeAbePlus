@@ -1,0 +1,11 @@
+{
+    "epochs": 200,
+    "steps_per_epoch": 400,
+    "num_residual_blocks": 5,
+    "num_residual_groups": 5,
+    "input_shape":  [32, 32, 32],
+    "training_data_dir": {"raw":"D:/DeAbe/Deabe_images/FixedCell_PtK2/Training_DeAbe/Aberrated/",
+                          "gt":"D:/DeAbe/Deabe_images/FixedCell_PtK2/Training_DeAbe/GT/"},
+    "validation_data_dir": {"raw":"D:/DeAbe/Deabe_images/FixedCell_PtK2/Training_DeAbe/Validation/Aberrated/",
+                            "gt":"D:/DeAbe/Deabe_images/FixedCell_PtK2/Training_DeAbe/Validation/GT/"}
+}
